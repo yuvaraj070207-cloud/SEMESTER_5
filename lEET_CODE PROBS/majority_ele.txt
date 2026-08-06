@@ -1,0 +1,28 @@
+import java.util.*;
+
+class Solution 
+{
+    public int majorityElement(int[] nums) 
+    {
+        int n = nums.length;
+        Map<Integer, Integer> occur = new HashMap<>(); 
+
+        for (int i = 0; i < n; i++)
+        {
+          
+           occur.merge(nums[i], 1, Integer::sum);
+        }
+        
+       
+       
+        for (Map.Entry<Integer, Integer> entry : occur.entrySet()) 
+        {
+            if (entry.getValue() > n / 2) 
+            {
+                return entry.getKey();
+            }
+        }
+        
+        return -1;
+    }
+}

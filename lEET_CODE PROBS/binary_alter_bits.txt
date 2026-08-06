@@ -1,0 +1,13 @@
+#include <stdbool.h>
+
+bool hasAlternatingBits(int n) {
+    // Shifting n right by 1 lines up opposite bits if they alternate
+    // Example: n = 101 (5), n >> 1 = 010 (2)
+    // x = 101 ^ 010 = 111
+    unsigned int x = n ^ (n >> 1);
+    
+    // If n has alternating bits, x will be all 1s (e.g., 111, 1111).
+    // Adding 1 to all 1s flips it to 100...0.
+    // Performing bitwise AND between x and (x + 1) should yield 0.
+    return (x & (x + 1)) == 0;
+}

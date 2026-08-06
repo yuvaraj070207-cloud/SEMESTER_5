@@ -1,0 +1,15 @@
+int findComplement(int num) 
+{
+    unsigned int mask = 0;
+    int temp = num;
+    
+    // Creating a mask of 1s with the exact binary length of num
+    while (temp > 0)
+    {
+        mask = (mask << 1) | 1;
+        temp >>= 1;
+    }
+    
+    // XORing with 1s flips every bit (0 -> 1, 1 -> 0)
+    return num ^ mask;
+}
