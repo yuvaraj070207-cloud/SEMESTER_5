@@ -1,0 +1,14 @@
+[Sun Sep  6 08:40:19 2026] Hotel Reservation Database Initialized.
+[Sun Sep  6 08:40:37 2026] Client 501 checked room availability.
+[Sun Sep  6 08:40:40 2026] SUCCESS: Client 501 reserved Room 101 (Res ID: 9001)
+[Sun Sep  6 08:40:44 2026] Client 501 requested booking details.
+[Sun Sep  6 08:40:50 2026] CANCEL: Client cancelled Res ID 9001 (Room 101)
+[Sun Sep  6 08:40:52 2026] Client 501 requested booking details.
+[Sun Sep  6 08:41:19 2026] Client 502 checked room availability.
+[Sun Sep  6 08:41:22 2026] Client 502 checked room availability.
+[Sun Sep  6 08:41:31 2026] SUCCESS: Client 502 reserved Room 101 (Res ID: 9002)
+[Sun Sep  6 08:41:46 2026] Client 502 checked room availability.
+[Sun Sep  6 08:41:56 2026] Client 502 checked room availability.
+[Sun Sep  6 08:42:07 2026] CANCEL: Client cancelled Res ID 9002 (Room 101)
+[Sun Sep  6 08:42:08 2026] Client 502 checked room availability.
+[Sun Sep  6 08:42:11 2026] Client 502 checked room availability.

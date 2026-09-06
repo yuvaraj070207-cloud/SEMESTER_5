@@ -1,0 +1,10 @@
+--- ROOM STATUS ---
+Room 101 | Type: Single | Price: $100 | Status: AVAILABLE
+Room 102 | Type: Single | Price: $100 | Status: AVAILABLE
+Room 201 | Type: Double | Price: $180 | Status: AVAILABLE
+Room 202 | Type: Double | Price: $180 | Status: AVAILABLE
+Room 301 | Type: Suite | Price: $350 | Status: AVAILABLE
+
+--- RESERVATIONS ---
+ResID: 9001 | ClientID: 501 | Room: 101 | Status: CANCELLED
+ResID: 9002 | ClientID: 502 | Room: 101 | Status: CANCELLED

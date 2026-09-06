@@ -1,0 +1,14 @@
+[Sun Sep  6 08:07:22 2026] Hospital System Data Initialized.
+[Sun Sep  6 08:07:28 2026] Client connected.
+[Sun Sep  6 08:07:38 2026] Registered new patient: yuva (ID: 1001)
+[Sun Sep  6 08:07:41 2026] Doctor availability searched.
+[Sun Sep  6 08:08:32 2026] Registered new patient: ef (ID: 1002)
+[Sun Sep  6 08:08:39 2026] Doctor availability searched.
+[Sun Sep  6 08:12:15 2026] Hospital System Data Initialized.
+[Sun Sep  6 08:12:36 2026] Client connected.
+[Sun Sep  6 08:12:43 2026] Registered new patient: yuvaraj (ID: 1001)
+[Sun Sep  6 08:13:46 2026] Doctor availability searched.
+[Sun Sep  6 08:13:53 2026] Booked Appt ID 5001 for Patient 1001 with Doctor 101 (Slot 09:00 AM)
+[Sun Sep  6 08:14:05 2026] Cancelled Appt ID 5001
+[Sun Sep  6 08:14:11 2026] Viewed appointment history.
+[Sun Sep  6 08:14:20 2026] Client disconnected.
